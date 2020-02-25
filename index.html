@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lily+Script+One&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -22,16 +22,16 @@
     <header class="main-head">
       <nav>
         <h1 id="logo">Victor Maracine</h1>
-        <input type="checkbox" class="menu-check" />
+
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
         </div>
       </nav>
     </header>
@@ -43,83 +43,113 @@
             Photography
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum
-            placeat quidem consequuntur dicta porro sequi optio mollitia libero
-            excepturi!
+            I am a restless traveller and a Cologne based black and white
+            photographer. Always finding a motive in nature,architecture and
+            city highlights.
           </p>
           <a href="#gallery">Gallery</a>
         </div>
         <div class="hero-images">
           <img
             class="hero-victor"
-            src="/imgs/victor.jpg"
-            alt="picture of victor"
+            src="/imgs/airplane.jpg"
+            alt="airplane picture"
           />
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-image">
           <h5>MINIMAL</h5>
-          <img src="/imgs/about-image.png" alt="portrait-picture" />
+          <img src="/imgs/tree.jpg" alt="a picture of a tree" />
         </div>
         <div class="about-text flex">
-          <h2>Victor Maracine</h2>
           <div class="about-life">
             <h3>My life</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              beatae eius at rerum nobis, itaque dolores corporis a odit fugit.
+              As a photographer I started in the earlier part of my life but I
+              have always considered the photography as a hobby. Soon I started
+              to be curios and guided by my brother I started to learn
+              professional techniques ,I started to explore and since then I
+              have not stopped.
             </p>
           </div>
           <div class="about-work">
             <h3>My work</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              beatae eius at rerum nobis, itaque dolores corporis a odit fugit.
+              I’ve been searching for feelings and reasons in a picture and I
+              have decided to use the black and white photography to help me
+              express what I wanted from the very beginning. Black and white
+              gave me all the tools that I needed and made me discover the
+              photography with less distractions and more feeling. I enjoy take
+              pictures in nature and at the same time I enjoy taking
+              architectural pictures.
             </p>
           </div>
           <div class="about-contact">
             <h3>Get in touch</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              beatae eius at rerum nobis, itaque dolores corporis a odit fugit.
+              Find me on instagram @colognegramer or send me an email:
+              victormaracine@gmail.com
             </p>
           </div>
         </div>
       </section>
-      <div class="gallery">
+      <div class="gallery" id="gallery">
         <div class="gallery-head">
           <h2>Black and white photography</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
         </div>
-        <img src="/imgs/gallery-1.jpg" alt="man in suit" class="gallery1" />
-        <img src="/imgs/gallery-2.jpg" alt="woman in coat" class="gallery2" />
         <img
-          src="/imgs/gallery-3.jpg"
-          alt="woman in t-shirt"
+          src="/imgs/landscape.tvtower.jpg"
+          alt="picture of tv tower"
+          class="gallery1"
+        />
+        <img src="/imgs/dom.empty.jpg" alt="woman in coat" class="gallery2" />
+        <img
+          src="/imgs/empty.streets.jpg"
+          alt="empty streets"
           class="gallery3"
         />
-        <img src="/imgs/gallery-4.jpg" alt="woman in jacket" class="gallery4" />
+        <img
+          src="/imgs/foggy.dome.jpg"
+          alt="foggy cathedral"
+          class="gallery4"
+        />
       </div>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="form-wrapper flex">
-          <h2>Get in <br /> <span>touch </span> </h2>
+          <h2>
+            Get in <br />
+            <span>touch </span>
+          </h2>
           <form>
             <label for="email">Your email:</label>
-            <input type="email" id="email required">
+            <input type="email" id="email required" />
             <button type="submit">Submit</button>
           </form>
         </div>
-        <img src="/imgs/contact-image.jpg" alt="victor maracine">
+        <img src="/imgs/victor.jpg" alt="victor maracine" />
       </section>
     </main>
     <footer>
-      <h4>Victor Maracine &copy; 2020 </h4>
+      <h4>Victor Maracine &copy; 2020</h4>
       <ul>
-        <li><a href="#"><img src="/imgs/youtube-symbol 1.svg" alt="youtube-social media"></a></li>
-        <li><a href="#"><img src="/imgs/twitter 1.svg" alt="twitter-social media"></a></li>
-        <li><a href="#"><img src="/imgs/instagram 1.svg" alt="instagram-social media"></a></li>
+        <li>
+          <a href="#"
+            ><img src="/imgs/youtube-symbol 1.svg" alt="youtube-social media"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/imgs/twitter 1.svg" alt="twitter-social media"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/colognegramer/"
+            ><img src="/imgs/instagram 1.svg" alt="instagram-social media"
+          /></a>
+        </li>
       </ul>
     </footer>
+    <script src="/app.js"></script>
   </body>
 </html>
